@@ -173,7 +173,7 @@
       </h2>
 
       <div class="text-left p-6 bg-white shadow-lg rounded-lg w-full sm:max-w-md lg:max-w-lg">
-        <form action="" method="POST">
+        <form action="" method="post">
           <!-- Harga Mobil -->
           <div class="mb-4">
             <label for="hargamobil" class="text-sm font-bold block mb-2">Harga Mobil</label>
@@ -203,6 +203,8 @@
             Hitung
           </button>
         </form>
+        <br>
+        <hr class="mb-4">
 
         <?php 
         if(isset($_POST['hitung'])) {
@@ -228,20 +230,19 @@
           <tr>
             <td>DP</td>
             <td>:</td>
-            <td><?= $dp; ?> % (Rp. <?= number_format($nominaldp, 2, ",", ".") ?>)</td>
+            <td><?= $dp; ?>% (Rp. <?= number_format($nominaldp, 2, ",", ".") ?>)</td>
           </tr>
           <tr>
             <td>Tenor</td>
             <td>:</td>
-            <td><?= $tenor; ?> Tahun (Rp. <?= $jumlahtenor; ?> Bulan)</td>
+            <td><?= $tenor; ?> Tahun (<?= $jumlahtenor; ?> Bulan)</td>
           </tr>
           <tr>
             <td>Bunga</td>
             <td>:</td>
             <td>20%</td>
           </tr>
-          <br>
-          <tr>
+          <tr class="font-bold">
             <td>Jumlah Angsuran</td>
             <td>:</td>
             <td>Rp. <?= number_format($nominalangsuran, 2, ",", ".") ?> / Bulan</td>
