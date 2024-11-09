@@ -157,11 +157,7 @@
       <div class="container text-center mt-4 py-4">
         <h2 class="font-bold text-4xl mb-4 text-orange-600">About Us</h2>
         <p class="text-lg font-medium px-12">
-          LuxeMotion adalah perusahaan yang menawarkan kendaraan mewah dengan
-          sentuhan artistik. LuxeMotion menghadirkan desain interior dan
-          eksterior berkelas, yang menarik perhatian kalangan atas. Fokus utama
-          mereka adalah kenyamanan, kualitas, dan fitur canggih yang memanjakan
-          pengendara.
+          LuxeMotion adalah produsen mobil mewah yang didedikasikan untuk menghadirkan pengalaman berkendara yang elegan dan penuh presisi. Berdiri dengan misi untuk menyatukan teknologi inovatif dengan keanggunan, kami merancang kendaraan yang tidak hanya memikat secara visual tetapi juga unggul dalam performa dan kenyamanan. Setiap mobil yang kami hasilkan adalah karya seni yang menggabungkan material berkualitas tinggi, keahlian tangan, dan teknologi modern untuk menciptakan standar baru di dunia otomotif mewah.
         </p>
       </div>
     </section>
