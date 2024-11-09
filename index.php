@@ -70,6 +70,10 @@
             </li>
             <li
               class="text-slate-900 font-semibold text-base hover:text-orange-600 transition duration-300">
+              <a href="#kredit">Kredit Mobil</a>
+            </li>
+            <li
+              class="text-slate-900 font-semibold text-base hover:text-orange-600 transition duration-300">
               <a href="#contact">Contact</a>
             </li>
           </ul>
@@ -104,6 +108,14 @@
               name="people-circle-outline"
               class="text-2xl"></ion-icon>
             <span class="text-base font-medium">About</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#kredit"
+            class="flex justify-center flex-col items-center gap-1">
+            <ion-icon name="car-sport-outline" class="text-2xl"></ion-icon>
+            <span class="text-base font-medium">Kredit Mobil</span>
           </a>
         </li>
         <li>
@@ -152,7 +164,7 @@
   <!-- About Section End -->
 
   <!-- Section Form Kredit Start -->
-  <div class="flex items-center justify-center min-h-screen bg-gray-200 py-10">
+  <div class="flex items-center justify-center min-h-screen bg-gray-200 py-10" id="kredit">
     <div class="text-center">
       <h1 class="font-bold text-center text-4xl text-orange-600 mb-6">
         Form Kredit Mobil
@@ -256,8 +268,11 @@
             Hubungi Kami
           </h2>
           <p class="font-medium text-md text-slate-900 md:text-lg">
-            Isi form dibawah untuk konsultasi dengan kami
+            Isi form dibawah untuk konsultasi dengan kami atau bisa menghubungi nomor dibawah ini
           </p>
+          <a
+            href="https://wa.me/6282141326067"
+            class="inline-block text-base text-orange-600 font-semibold hover:text-slate-900 mb-3">+6282141326067</a>
         </div>
       </div>
 
@@ -268,21 +283,21 @@
             <input
               type="text"
               id="name"
-              class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-slate-900 focus:ring-1 focus:border-slate-900" />
+              class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-orange-600 focus:ring-1 focus:border-orange-600" />
           </div>
           <div class="w-full px-4 mb-8">
             <label for="email" class="text-base font-bold text-slate-900">Email</label>
             <input
               type="email"
               id="email"
-              class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-slate-900 focus:ring-1 focus:border-slate-900" />
+              class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-orange-600 focus:ring-1 focus:border-orange-600" />
           </div>
           <div class="w-full px-4 mb-8">
             <label for="message" class="text-base font-bold text-slate-900">Pesan</label>
             <textarea
               type="text"
               id="message"
-              class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-slate-900 focus:ring-1 focus:border-slate-900 h-32"></textarea>
+              class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-orange-600 focus:ring-1 focus:border-orange-600 h-32"></textarea>
           </div>
           <div class="w-full px-4">
             <button
@@ -304,27 +319,28 @@
           <h2 class="font-bold text-4xl text-white mb-5">Luxe Motion</h2>
           <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
           <p>luxemotion@gmail.com</p>
+          <a href="https://wa.me/6282141326067">+6282141326067</a>
           <p>Malang</p>
           <p>Jawa Timur</p>
         </div>
         <div class="w-full px-4 mb-12 md:w-1/3">
           <h3 class="font-semibold text-xl text-white mb-5">
-            Kategori Tulisan
+            Kategori
           </h3>
           <ul class="text-white">
             <li>
               <a
-                href=""
-                class="inline-block text-base hover:text-slate-900 mb-3">Programming</a>
+                href="#"
+                class="inline-block text-base hover:text-slate-900 mb-3">Otomotif</a>
             </li>
             <li>
               <a
-                href=""
+                href="#"
                 class="inline-block text-base hover:text-slate-900 mb-3">Teknologi</a>
             </li>
             <li>
               <a
-                href=""
+                href="#"
                 class="inline-block text-base hover:text-slate-900 mb-3">Gaya Hidup</a>
             </li>
           </ul>
@@ -341,6 +357,11 @@
               <a
                 href="#about"
                 class="inline-block text-base hover:text-slate-900 mb-3">About Us</a>
+            </li>
+            <li>
+              <a
+                href="#kredit"
+                class="inline-block text-base hover:text-slate-900 mb-3">Kredit Mobil</a>
             </li>
             <li>
               <a
