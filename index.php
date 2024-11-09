@@ -132,7 +132,7 @@
     <!-- Navbar End -->
 
     <!-- Carousel Start -->
-    <section id="home" class="bg-orange-600">
+    <section id="home">
       <div class="flex justify-center">
         <div class="container p-6 md:p-10 mb-4 mt-4">
           <div class="multiple-items">
