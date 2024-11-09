@@ -47,7 +47,7 @@
       referrerpolicy="no-referrer"
     ></script>
 
-    <title>Luxe Motion</title>
+    <title>LuxeMotion</title>
   </head>
   <body>
 
@@ -131,7 +131,7 @@
     </nav>
     <!-- Navbar End -->
 
-    <!-- Home Start -->
+    <!-- Home Section Start -->
     <section id="home">
       <div class="flex justify-center">
         <div class="container p-6 md:p-8">
@@ -150,7 +150,7 @@
         </div>
       </div>
     </section>
-    <!-- Home End -->
+    <!-- Home Section End -->
 
     <!-- About Section Start -->
     <section id="about" class="pt-10 pb-10">
