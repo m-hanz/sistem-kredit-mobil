@@ -131,10 +131,15 @@
     </nav>
     <!-- Navbar End -->
 
-    <!-- Carousel Start -->
+    <!-- Home Start -->
     <section id="home">
       <div class="flex justify-center">
-        <div class="container p-6 md:p-10 mb-4 mt-4">
+        <div class="container p-6 md:p-8">
+          <div class="text-center mb-4">
+            <h1 class="font-bold text-2xl mb-2 text-slate-900">Welcome to LuxeMotion</h1>
+            <h2 class="font-bold text-4xl text-orange-600 mb-4">Discover the Ultimate Luxury in Motion</h2>
+            <p class="text-lg font-medium">Selamat datang di LuxeMotion, di mana setiap perjalanan menjadi pengalaman mewah yang tak terlupakan. Kami menghadirkan perpaduan sempurna antara desain elegan, performa tak tertandingi, dan teknologi canggih untuk memenuhi kebutuhan pengendara modern yang mengutamakan kualitas. Dengan material premium dan detail yang dirancang khusus, setiap mobil LuxeMotion adalah karya seni yang menyuguhkan kenyamanan luar biasa, keamanan terbaik, dan kemewahan di setiap sisi.</p>
+          </div>
           <div class="multiple-items">
             <img class="p-1" src="public/asset/img/gambar 1.jpg" alt="" />
             <img class="p-1" src="public/asset/img/gambar 2.jpg" alt="" />
@@ -145,13 +150,13 @@
         </div>
       </div>
     </section>
-    <!-- Carousel End -->
+    <!-- Home End -->
 
     <!-- About Section Start -->
     <section id="about" class="pt-10 pb-10">
       <div class="container text-center mt-4 py-4">
         <h2 class="font-bold text-4xl mb-4 text-orange-600">About Us</h2>
-        <p class="px-12">
+        <p class="text-lg font-medium px-12">
           LuxeMotion adalah perusahaan yang menawarkan kendaraan mewah dengan
           sentuhan artistik. LuxeMotion menghadirkan desain interior dan
           eksterior berkelas, yang menarik perhatian kalangan atas. Fokus utama
